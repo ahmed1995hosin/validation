@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="validation system" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="eng ahmed hosin" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>sign up</title>
+    <!-- bootstrap link and font-awesome -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- style and media query -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <!-- font google -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="signuPage">
+    <!-- eng ahmed hosin -->
+    <section class="system-log vh-100">
+      <div class="container-fluid h-100">
+        <div class="row h-100">
+          <div
+            class="col-md-6 col-12 d-flex justify-content-center align-items-center flex-column h-100 bg-layer order-md-5"
+          >
+            <div class="txt-intro">
+              <h1>welcome back to Franso</h1>
+
+              <p>
+                Grursus mal suada faci lisis Lorem ipsum dolarorit more ametion
+                consectetur elit. Vesti at bulum nec odio aea the dumm ipsumm
+                ipsum that dolocons rsus mal suada.
+              </p>
+              <div class="page-switcher d-block">
+                <a href="index.html">Log In</a>
+                <a href="signup.html" class="activ">Sign Up</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-12 d-flex justify-content-center align-items-center flex-column h-100 bg-light order-md-1"
+          >
+            <div class="part-content">
+              <img class="logo" src="img/light.png" alt="franso" />
+              <h2>sign up</h2>
+              <p>Create an account free and enjoy it</p>
+              <form class="form">
+                <div class="form-group">
+                  <input
+                    class="form-control"
+                    id="username"
+                    name="username"
+                    type="text"
+                    placeholder="Enter your name"
+                    required
+                  />
+                  <p class="text-danger opacity-0">Name is required</p>
+                </div>
+                <div class="form-group">
+                  <input
+                    class="form-control"
+                    id="useremail"
+                    name="useremail"
+                    type="email"
+                    placeholder="Enter your email"
+                    required
+                  />
+                  <p class="text-danger opacity-0">Email is required</p>
+                </div>
+                <div class="form-group">
+                  <input
+                    class="form-control"
+                    id="userpassword"
+                    name="userpassword"
+                    type="password"
+                    placeholder="Enter your password"
+                    required
+                  />
+                  <p class="text-danger opacity-0">Password is required</p>
+                </div>
+                <p class="p-2 text-success opacity-0 log-flag m-0 text-center">
+                  Success
+                </p>
+                <button
+                  class="btn btn-main w-100 rounded-3"
+                  id="signup"
+                  type="submit"
+                >
+                  Sign Up
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

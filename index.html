@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="validation system" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="eng ahmed hosin" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>log in</title>
+    <!-- bootstrap link and font-awesome -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- style and media query -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <!-- font google -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="signinPage">
+    <!-- eng ahmed hosin -->
+    <section class="system-log vh-100">
+      <div class="container-fluid h-100">
+        <div class="row h-100">
+          <div
+            class="col-md-6 col-12 d-flex justify-content-center align-items-center flex-column h-100 bg-layer"
+          >
+            <div class="txt-intro">
+              <h1>welcome to Franso</h1>
+
+              <p>
+                Grursus mal suada faci lisis Lorem ipsum dolarorit more ametion
+                consectetur elit. Vesti at bulum nec odio aea the dumm ipsumm
+                ipsum that dolocons rsus mal suada.
+              </p>
+              <div class="page-switcher d-block">
+                <a href="index.html" class="activ">Log In</a>
+                <a href="signup.html">Sign Up</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-12 d-flex justify-content-center align-items-center flex-column h-100 bg-light"
+          >
+            <div class="part-content">
+              <img class="logo" src="img/light.png" alt="franso" />
+              <h2>log in</h2>
+              <p>Log in to continue in our website</p>
+              <form class="form">
+                <div class="form-group">
+                  <input
+                    class="form-control"
+                    type="email"
+                    name="loginEmail"
+                    id="loginEmail"
+                    placeholder="Enter your email"
+                    required
+                  />
+                  <p class="text-danger opacity-0">Email is required</p>
+                </div>
+                <div class="form-group">
+                  <input
+                    class="form-control"
+                    name="loginPassword"
+                    id="loginPassword"
+                    type="password"
+                    placeholder="Enter your password"
+                    required
+                  />
+                  <p class="text-danger opacity-0">Password is required</p>
+                </div>
+                <p class="p-2 text-danger log-flag m-0 text-center opacity-0">
+                  incorrect email or password
+                </p>
+                <button
+                  id="login"
+                  class="btn btn-main w-100 rounded-3"
+                  type="submit"
+                >
+                  Log In
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
